@@ -1,8 +1,130 @@
-header {
+html, body {
+  overflow-x: hidden;
+  background: #FFF;
+  font-size: 15px;
+  font-family: 'Gt Walsheim Regular', sans-serif;
+  letter-spacing: 0.5px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-shadow: 0 0 1px rgba(0,0,0,.01);
+}
+
+.clearfix {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+
+.head-container {
+  width: 100%;
+  padding: 0 47px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.header {
   width: 100%;
   height: 100%;
+  /*margin: 0 0 0 150px;*/
+  float: left;
+  clear: both;
+  padding: 42px 0;
+  border-bottom: 1px solid #EEE;
 }
 
 .header-logo {
-  background-image: url();
+  position: relative;
+  margin: 17px 0 0 0;
+  width: 186px;
+  float: left;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.nav-bar {
+  margin-left: 200px;
+  /*float: left;
+  display: inline-block;*/
+}
+
+.menu, .socials-bar {
+  list-style: none;
+}
+
+.item-menu {
+  float: left;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+.link-bar {
+  display: inline-block;
+  padding: 26px 9px 20px 9px;
+  font-size: 16px;
+  color: #4d4d4d;
+  border-bottom: 4px solid #EEE;
+}
+
+.link-bar:hover {
+  color: #3DAFCA;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.socials {
+  width: 78px;
+  height: 69px;
+}
+
+.socials-bar {
+  float: left;
+}
+
+.social-links:hover {
+  color: #3DAFCA;
+}
+
+.contact-head {
+  margin: 28px 0 0 28px;
+  color: #4d4d4d;
+  display: block;
+  width: 129px;
+  height: 34px;
+}
+
+.phone {
+  font-size: 18px;
+  font-weight: bold;
+  color: #4d4d4d;
+}
+
+.phone:hover {
+  color: #3DAFCA;
+}
+
+.email {
+  font-weight: lighter;
+  font-size: 13px;
+  margin: 4px 0 0 0;
+  color: grey;
+}
+
+.email:hover {
+  color: #3DAFCA;
 }
