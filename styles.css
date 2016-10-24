@@ -12,13 +12,13 @@ html, body {
   text-shadow: 0 0 1px rgba(0,0,0,.01);
 }
 
-.clearfix {
-  display: table;
-  content: "";
-  line-height: 0;
+.clearfix:after, .clearfix:before {
+    display: table;
+    content: "";
+    line-height: 0;
 }
 
-.head-container {
+.container {
   width: 100%;
   padding: 0 47px;
   -webkit-box-sizing: border-box;
@@ -87,13 +87,20 @@ a {
   text-align: right;
 }
 
+.social-links, .social-icons, .socials-bar {
+  display: inline-block;
+  padding: 32px 13px 20px 13px;
+  font-size: 18px;
+  color: #ccc;
+}
+
 .socials {
   width: 78px;
   height: 69px;
 }
 
 .socials-bar {
-  float: left;
+  float: right;
 }
 
 .social-links:hover {
@@ -127,4 +134,124 @@ a {
 
 .email:hover {
   color: #3DAFCA;
+}
+
+.home {
+  margin: 42px 0 0 0;
+}
+
+.container {
+  width: 100%;
+  padding: 0 47px;
+  box-sizing: border-box;
+}
+
+.call {
+  margin: 20px 0 0 0;
+}
+
+.title-1 {
+  line-height: 50px;
+  font-weight: bold;
+}
+
+.big1 {
+  font-size: 100px;    letter-spacing: -7px;
+}
+
+.heart:before {
+  content: "\f004";
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.icon {
+  color: #E14D64;
+}
+
+.small1 {
+  font-size: 60px;    letter-spacing: -4px;
+}
+
+.features-box {
+  position: relative;
+  margin: 73px 0 0 0;
+  border: 1px solid #e6e6e6;
+  border-top: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.box {
+  width: 25%;
+  position: relative;
+  padding: 43px;
+  border-top: 5px solid #e6e6e6;
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.grey-box {
+  border-color: #8995A2;
+}
+
+.blue-box {
+  border-color: #3DAFCA;
+}
+
+.box-title {
+  font-size: 35px;
+  color: #4d4d4d;
+}
+
+.box-desc {
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: lighter;
+  margin-top: 15px;
+  color: grey;
+}
+
+.box-border {
+  width: 1px;
+  height: 200%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #e6e6e6;
+}
+
+.customers {
+  padding: 50px 0;
+}
+
+h1>.customers-t1 {
+  font-weight: lighter;
+  text-align: center;
+  margin: 0;
+}
+
+.customers-text {
+  color: #999;
+  margin-top: 15px;
+  text-align: center;
+}
+
+footer {
+  padding: 35px 10px;
+  text-align: center;
+  background: #5D6875;
+  display: inline-block;
+}
+
+.footer-table {
+
 }
